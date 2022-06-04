@@ -1,0 +1,135 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.header {
+    display: flex;
+    margin: auto;
+    padding: 20px;
+    justify-content: space-evenly;
+    padding-bottom: 20px;
+    background-color: rgb(252, 252, 244);
+}
+
+.header a {
+    text-decoration: none;
+    color: rgb(153, 152, 152);
+    font-size: 11px;
+    padding: 8px;
+}
+
+.logo img {
+    width: 200px;
+    padding-left: 20px;
+}
+
+.myCart {
+    display: flex;
+}
+
+.cart1 {
+    width: 50%;
+    border-right: 1px solid rgb(238, 236, 236);
+    text-align: left;
+    font-size: 25px;
+    color: rgb(99, 91, 91);
+    padding-left: 170px;
+    padding-top: 30px;
+    background-color: rgb(253, 251, 251);
+}
+
+.cart2 {
+    width: 50%;
+    padding-left: 100px;
+}
+
+.cart2_1 {
+    display: flex;
+    padding-top: 100px;
+    background-color: rgb(253, 251, 251);
+
+}
+
+.updateCart {
+    padding: 20px;
+
+}
+
+.cart2 input {
+    width: 400px;
+    height: 120px;
+    background-color: rgb(245, 244, 244);
+    border: none;
+    padding-left: 20px;
+}
+
+.footer {
+    background-color: #565656;
+    color: rgb(182, 179, 179);
+    display: flex;
+}
+
+.footer1 {
+    width: 50%;
+    padding-left: 150px;
+    padding-top: 210px;
+    text-align: left;
+}
+
+.socialMedia {
+    padding: 200px 0 270px 0;
+}
+
+.copyright {
+    padding-bottom: 30px;
+    font-size: 13px;
+    color: lightgray;
+}
+
+.footer2 {
+    width: 50%;
+    border-left: solid 1px grey;
+    padding-left: 150px;
+    padding-top: 80px;
+    text-align: left;
+}
+
+.foot2link {
+    padding: 50px 0 50px 0;
+}
+
+.foot2link a {
+    text-decoration: none;
+    color: white;
+}
+
+.foot2link a:hover {
+    color: rgb(51, 51, 240);
+}
+
+.footerLinks {
+    display: flex;
+    color: white;
+    font-size: 13px;
+}
+
+.footerMenu {
+    padding: 140px 0 40px 0;
+}
+
+.footerLinks {
+    padding-bottom: 10px;
+}
+
+.footerLinks1 {
+    list-style: none;
+    margin-right: 20px;
+    line-height: 30px;
+}
+
+.footerLinks2 {
+    list-style: none;
+    line-height: 30px;
+}
