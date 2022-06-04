@@ -1,0 +1,325 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.header {
+    display: flex;
+    margin: auto;
+    padding: 20px;
+    justify-content: space-evenly;
+    padding-bottom: 20px;
+    background-color: rgb(252, 252, 244);
+}
+
+.header a {
+    text-decoration: none;
+    color: rgb(153, 152, 152);
+    font-size: 11px;
+    padding: 8px;
+}
+
+.logo img {
+    width: 200px;
+    padding-left: 20px;
+}
+
+.icons img {
+    width: 25px;
+}
+
+#sliderContainer {
+    width: 100%;
+    margin: auto;
+    height: 550px;
+}
+
+.slide1:hover {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+        url(../img/Bamboo-Web-Banner_1920x.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 550px;
+}
+
+.slide2:hover {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+        url(../img/Socks-Web-Banner-02_1920x.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 550px;
+}
+
+.slide3:hover {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+        url(../img/Combs-Mirrors-Web-Banner-2_86956b42-d48c-4ea4-b098-e5be5cb2af86_1920x.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.slide4:hover {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+        url(../img/Rumple-Banner_1920x.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 550px;
+}
+
+.stage2 {
+    display: flex;
+    width: 100%;
+    margin: auto;
+}
+
+
+
+.stage2 .col1 {
+    width: 60%;
+    background-image: url("../img/Fall-2021-Stationery-NL.jpg");
+    height: 620px;
+    background-size: cover;
+    text-align: center;
+    color: white;
+
+}
+
+.stage2 .col1 :hover {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+        url("../img/Fall-2021-Stationery-NL.jpg");
+    color: #1990c6;
+    background-size: cover;
+    width: 815px;
+    height: 220px;
+}
+
+.stage2 .col1 h1 {
+    padding-top: 400px;
+    font-size: 40px;
+}
+
+.stage2 .col2 {
+    width: 40%;
+    text-align: center;
+    color: white;
+}
+
+.stage2 .col2 .box1 {
+
+    background-image: url("../img/Flora-Salad-Plate-Flora-Towel.jpg");
+    height: 310px;
+    background-size: cover;
+
+}
+
+.stage2 .col2 .box1 :hover {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+        url("../img/Flora-Salad-Plate-Flora-Towel.jpg");
+    color: #1990c6;
+    background-size: cover;
+    height: 310px;
+    width: 545px;
+}
+
+.stage2 .col2 .box2 {
+
+    background-image: url("../img/Creative-Spaces-Li.jpg");
+    height: 310px;
+    background-size: cover;
+
+}
+
+.stage2 .col2 .box2 :hover {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+        url("../img/Creative-Spaces-Li.jpg");
+    color: #1990c6;
+    background-size: cover;
+    height: 210px;
+    width: 545px;
+}
+
+.stage2 .col2 h1 {
+    padding-top: 100px;
+    font-size: 40px;
+}
+
+/* .itemz .row {
+    width: 250px;
+    height: 300px;
+    background: url("../img/bambooo.jpg") no-repeat;
+    margin: 20px;
+}
+
+.itemz .row:hover {
+    background: url("../img/bamboo2.jpg") no-repeat;
+} */
+
+.itemz1,
+.itemz2 {
+    display: flex;
+    width: 100%;
+    background-color: whitesmoke;
+    color: gray;
+    font-size: 13px;
+
+}
+
+.row {
+    width: 20%;
+    height: 400px;
+    margin: auto;
+    text-align: center;
+}
+
+.row img {
+    width: 200px;
+}
+
+.stage3 {
+    display: flex;
+    color: white;
+    margin: auto;
+    width: 100%;
+    padding-top: -0%;
+}
+
+.stage3 .col1 {
+    background-image: url(../img/poketo-blog_1200x.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 50%;
+    height: 500px;
+    padding-top: 200px;
+    padding-right: 180px;
+    font-size: 40px;
+    text-align: center;
+}
+
+.btnStage3 {
+    width: 120px;
+    height: 60px;
+    border: none;
+    color: rgb(49, 47, 47);
+}
+
+.stage3 .col2 {
+    width: 50%;
+
+}
+
+.stage3 .col2 .box11 {
+    background: linear-gradient(rgba(12, 12, 12, 0.5), rgba(20, 20, 20, 0.5)),
+        url(../img/crop\ centree.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    height: 300px;
+    padding-left: 20px;
+    padding-top: 50px;
+
+}
+
+.col2 .box11:hover {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.596)),
+        url(../img/crop\ centree.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-blend-mode: darken;
+    height: 300px;
+
+
+}
+
+.col2 .box22 {
+    background: linear-gradient(rgba(12, 12, 12, 0.5), rgba(20, 20, 20, 0.5)),
+        url(../img/blog_960x1080_crop_center.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 300px;
+    padding-top: 50px;
+    padding-left: 20px;
+}
+
+.col2 .box22:hover {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.596)),
+        url(../img/blog_960x1080_crop_center.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-blend-mode: darken;
+    height: 300px;
+
+}
+
+.footer {
+    background-color: #565656;
+    color: rgb(182, 179, 179);
+    display: flex;
+}
+
+.footer1 {
+    width: 50%;
+    padding-left: 150px;
+    padding-top: 210px;
+    text-align: left;
+}
+
+.socialMedia {
+    padding: 200px 0 270px 0;
+}
+
+.copyright {
+    padding-bottom: 30px;
+    font-size: 13px;
+    color: lightgray;
+}
+
+.footer2 {
+    width: 50%;
+    border-left: solid 1px grey;
+    padding-left: 150px;
+    padding-top: 80px;
+    text-align: left;
+}
+
+.foot2link {
+    padding: 50px 0 50px 0;
+}
+
+.foot2link a {
+    text-decoration: none;
+    color: white;
+}
+
+.foot2link a:hover {
+    color: rgb(51, 51, 240);
+}
+
+.footerLinks {
+    display: flex;
+    color: white;
+    font-size: 13px;
+}
+
+.footerMenu {
+    padding: 140px 0 40px 0;
+}
+
+.footerLinks {
+    padding-bottom: 10px;
+}
+
+.footerLinks1 {
+    list-style: none;
+    margin-right: 20px;
+    line-height: 30px;
+}
+
+.footerLinks2 {
+    list-style: none;
+    line-height: 30px;
+}
